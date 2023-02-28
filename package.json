@@ -1,0 +1,25 @@
+{
+  "name": "beisbol-para-nerds",
+  "version": "1.0.0",
+  "description": "Juego interactivo de beisbol",
+  "main": "dist/app.js",
+  "bin" : "dist/app.js",
+  "type": "module",
+  "scripts": {
+    "build-node": "src/app.js --outDir dist-node",
+    "npm-start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "beisbol",
+    "js"
+  ],
+  "author": "Pierre Isaí Burciaga García",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.4"
+  }
+}
