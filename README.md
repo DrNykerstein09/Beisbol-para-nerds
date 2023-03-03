@@ -47,10 +47,10 @@ Sigue las intrucciones para un correcto funcionamiento
 - GLOBAL
 
 ```
-npm intall -g beisbol-para-nerds
+npm install -g beisbol-para-nerds
 ```
 * LOCAL
 ```
-npm intall beisbol-para-nerds
+npm install beisbol-para-nerds
 ```
 
